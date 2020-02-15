@@ -7,7 +7,7 @@ A roslyn-powered editable [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval
 <img src="https://github.com/waf/replay-csharp/raw/master/resource/replay.gif" style="max-width:100%;" width="600px" align="middle">
 </p>
 
-## Features
+## Features 
 
 - Correct mistakes on previous lines, even after you evaluate them.
 - Re-evaluate a line multiple times by hitting <kbd>ctrl</kbd> + <kbd>enter</kbd>
