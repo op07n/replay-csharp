@@ -1,6 +1,6 @@
 name: Release Build
 
-on: release
+on: [push, pull_request]
 
 jobs:
   build:
@@ -27,3 +27,4 @@ jobs:
         name: Replay-win-x64.zip
         path: Replay\bin\release\netcoreapp3.1\win-x64\Replay-win-x64.zip
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        content-type: application/gzip
